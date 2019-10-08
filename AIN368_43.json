@@ -18,8 +18,24 @@
 		}
     ],
 	"properties": {
+		"angleMax": {
+			"type": "number",
+			"description": "The resting angle of the gauge",
+			"default" : 0
+		}
 	},
 	"methods": {
+		"setAngle": {
+			"description": "Update the gauge angle",
+			"parameters": [
+			 {
+				"name": "angleMax",
+				"type": "number",
+				"description": "The displayed angle of the gauge"		 
+			 }
+			],
+			"body": "this.angleMax = angleMax;"		 
+		}
 	},
 	"events": {
 	}
