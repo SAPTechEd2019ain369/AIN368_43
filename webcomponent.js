@@ -113,8 +113,7 @@
             var endX = this._outerRad + (lineLength * Math.sin(lineAngle * (pi/180)));
             var endY = this._outerRad - (lineLength * Math.cos(lineAngle * (pi/180)));
             return {x:endX, y:endY}
-        };
-    
+        };    
     });
         
 })();
