@@ -12,7 +12,7 @@
 		{
 			"kind": "main", 
 			"tag": "com-sap-teched-gauge-solution-exe2", 
-			"url": "https://sapteched2019ain369.github.io/AIN368_43/webcomponent.js", 
+			"url": "https://sapteched2019ain369.github.io/AIN368_SOLUTION_EX3/webcomponent.js", 
 			"integrity": "", 
 			"ignoreIntegrity" : true
 		}
@@ -34,7 +34,8 @@
 				"description": "The displayed angle of the gauge"		 
 			 }
 			],
-			"body": "this.angleMax = angleMax;"		 
+			"body": "this.angleMax = angleMax;"
+		 
 		}
 	},
 	"events": {
